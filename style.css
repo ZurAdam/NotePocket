@@ -1,0 +1,51 @@
+* {
+  background: rgb(22, 22, 38);
+}
+
+h2 {
+  color: white;
+}
+#newNote {
+  background: rgb(0, 180, 235);
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li {
+  width: 150px;
+  height: 150px;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid black;
+  display: inline-block;
+  background: rgb(0, 180, 235);
+}
+
+img {
+  width: 20px;
+  height: 20px;
+  float: right;
+  background: rgb(0, 180, 235);
+}
+
+textarea {
+  border: none;
+  background: rgb(59, 58, 74);
+}
+
+.note-title,
+.note-content {
+  background: rgb(0, 180, 235);
+  resize: none;
+  width: 80%;
+}
+.note-title {
+  height: 30px;
+  font-size: 15px;
+}
+
+.note-content {
+  height: 100px;
+}
